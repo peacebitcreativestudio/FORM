@@ -1,4 +1,7 @@
-# I've been working on this for three years.
+Location: .legacy/notes/on_form.txt
+Date Modified: [TIMESTAMP UNCERTAIN — 1951? 1952? 1953?]
+Author: Dr. Elizabeth Morse
+Classification: PERSONAL — NOT FOR DISTRIBUTION
 
 Not the cube. Not the network. Not The Professor.
 
