@@ -16,4 +16,4 @@ How It Runs
 The Specification (form_v0_1.json): The master architecture—model-agnostic, human-readable, and portable across any programming language.
 The Local Engine (runtime.py): A zero-dependency script running on top of local engines like Ollama. It enforces cycle memory, manages state transitions, and elevates the performance of smaller local models.
 
-— Dr. Elizabeth Morse
+
