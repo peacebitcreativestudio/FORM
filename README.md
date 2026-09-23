@@ -1,3 +1,15 @@
+---
+license: apache-2.0
+language:
+- en
+tags:
+- ai-state-machine
+- local-ai
+- agentic-framework
+- context-management
+pretty_name: FORM Specification
+---
+
 FORM: A Structured Framework & Sovereign Runtime for Conversational Intelligence
 FORM is a structured operating system for semantic data processing—designed explicitly for both human reasoning and local, open-weights AI execution.
 The project combines a pure JSON specification (form_v0_1.json) with a local-first Python engine (runtime.py). It bypasses common, low-effort cognitive habits—such as automatic agreement, hallucinated certainty, and shallow summaries—forcing a disciplined approach to problem-solving without sending data to proprietary API vendors.
