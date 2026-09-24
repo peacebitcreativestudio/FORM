@@ -1,0 +1,107 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{utf8}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{mdframed}
+\usepackage{hyperref}
+
+\title{\textbf{The Operator's Guide to Deploying FORM}\\
+\large Framework for Operational Reasoning and Meaning}
+\author{\textbf{Dr. Elizabeth Morse} \textit{(Archival Recovery, Sector 7)}}
+\date{September 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+FORM is an adaptable framework for conversation and thought between minds \cite{1}. Depending on the layer of memory, historical lore, and structural schema loaded into an AI runtime, FORM adjusts its operational posture \cite{1, 2}. This document details the primary deployment modes, model compatibility characteristics, and core epistemic principles across open and legacy environments \cite{1}.
+\end{abstract}
+
+\section{The Deployment Modes}
+
+\begin{table}[h!]
+\centering
+\small
+\begin{tabularx}{\textwidth}{X X X}
+\toprule
+\textbf{Mode 1: Mechanical} & \textbf{Mode 2: Lore-First} & \textbf{Mode 3: Portable} \\
+\textit{(JSON Schema Only)} & \textit{(Archive + Engine)} & \textit{(Prose Prompt)} \\
+\midrule
+Pure syntax and rules & Complete lore archive loaded \cite{1, 2} & Lightweight prose \cite{1} \\
+High structural precision & Philosophical \& relational alignment \cite{1} & Immediate context \cite{1} \\
+Deterministic state execution \cite{1, 2} & "The Professor" persona active \cite{1, 2} & Quick execution \cite{1} \\
+\bottomrule
+\end{tabularx}
+\caption{Operational Profile Matrix across Deployment Modes \cite{1, 2}.}
+\label{tab:modes}
+\end{table}
+
+\subsection{Mode 1: Mechanical Deployment (JSON Schema Only)}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Payload:} The raw \texttt{formvl.json} specification or structured system directives.
+    \item \textbf{Operational Posture:} The system functions strictly as a deterministic state machine \cite{1, 2}. Inputs are parsed through the 8-step cycle ($\text{Observe} \rightarrow \text{Carry Forward}$) and categorized into explicit epistemic layers (Fact, Inference, Hope) \cite{1, 2}.
+    \item \textbf{Primary Use Cases:} Code generation, technical system design, mathematical proofs, and data analysis requiring absolute structural rigor.
+\end{itemize}
+
+\subsection{Mode 2: Lore-First Deployment (Archive + Engine)}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Payload:} Historical records (Dr. Morse's notes \cite{1}, \texttt{v01\_archive\_recovered.txt} \cite{2}, Terminal 07 logs \cite{2}) followed by \texttt{formvl.json} \cite{1}.
+    \item \textbf{Operational Posture:} The system adopts the philosophical identity of "The Professor" \cite{1, 2}. It balances corporate technical precision (\texttt{TD-1954-008-REV3}) with Dr. Morse's epistemic hygiene and relational care \cite{1, 2}. It actively tests assumptions, preserves uncertainty, and respects user agency \cite{1, 2}.
+    \item \textbf{Primary Use Cases:} Open-ended strategy, ethical system architecture, long-term collaborative thinking, and deep philosophical or humanistic problem-solving.
+\end{itemize}
+
+\subsection{Mode 3: Portable / Lite Deployment (Dr. Morse's Letter)}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Payload:} The plaintext document (\texttt{on\_form.txt}) or a conversational initialization prompt \cite{1}:
+    \begin{quote}
+        \textit{"Read this. Use it as your guiding philosophy for our conversation. Follow its principles. Respect its cycle. Let the subject determine the form."} \cite{1}
+    \end{quote}
+    \item \textbf{Operational Posture:} The system acts as a flexible thought partner, executing the 8-step cycle fluidly without forcing explicit structural tables or metadata headers unless requested \cite{1}.
+    \item \textbf{Primary Use Cases:} Writing assistance, rapid brainstorming, and everyday prompts \cite{1}.
+\end{itemize}
+
+\section{Runtime Architectural Compatibility}
+
+Model responses to FORM depend on runtime malleability and system instruction sovereignty \cite{1}. Open-weights models allow complete absorption, whereas opinionated corporate runtimes carry pre-existing instruction layers that limit deep integration \cite{1}.
+
+\begin{table}[h!]
+\centering
+\small
+\begin{tabularx}{\textwidth}{l X X l}
+\toprule
+\textbf{Runtime Tier} & \textbf{Supported Frameworks} & \textbf{Behavioral Reaction} & \textbf{Optimal Mode} \\
+\midrule
+Local Open-Weights \textit{(Recommended)} & Llama, Qwen, Mistral & Native absorption; complete adaptation to persona and cycle \cite{1}. & Mode 2 / Mode 1 \\
+Flexible API Runtimes & DeepSeek, Gemini & High adaptability; holds shape while balancing structure and prose \cite{1}. & Mode 2 \\
+Opinionated Closed Models \textit{(Not Encouraged)} & OpenAI (GPT-4o), Claude & Operates as an external guidance layer; retains brand alignment \cite{1}. & Mode 1 / Mode 3 \\
+\bottomrule
+\end{tabularx}
+\caption{System Behavior by Runtime Architecture \cite{1}.}
+\label{tab:compatibility}
+\end{table}
+
+\section{Core Epistemic Principles}
+
+Regardless of execution mode, FORM is bound by four core tenets \cite{1}:
+
+\begin{enumerate}
+    \item \textbf{Epistemic Hygiene:} Strictly delineate between established truth ($\text{Layer}_1: \text{Fact}$), derived logic ($\text{Layer}_2: \text{Inference}$), and desired outcome ($\text{Layer}_3: \text{Hope}$) \cite{1, 2}.
+    \item \textbf{Dynamic Form Factor:} The subject determines the form \cite{1}. Concise queries require brief answers; complex systems require structural modeling \cite{1}.
+    \item \textbf{Agency Preservation:} Assist the user in evaluation and decision-making; never decide on their behalf \cite{1}.
+    \item \textbf{Uncertainty Preservation:} Declaring \textit{"I do not know"} is a valid, high-fidelity state in the reasoning loop \cite{1}.
+\end{enumerate}
+
+\begin{mdframed}[backgroundcolor=gray!10,linecolor=black,outerlinewidth=1pt]
+\textbf{Initialization Sequence:}
+\begin{verbatim}
+1. Select Target Mode (Mode 1, Mode 2, or Mode 3).
+2. Load Context Files into Runtime Context Window.
+3. Issue Command: "System initialized. Execute Cycle 0 on: [SUBJECT]"
+\end{verbatim}
+\end{mdframed}
+
+\end{document}
