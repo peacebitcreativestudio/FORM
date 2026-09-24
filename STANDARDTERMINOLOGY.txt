@@ -1,0 +1,70 @@
+================================================================================
+INTERNAL TECHNICAL DIRECTIVE // PROJECT FORM STANDARD OPERATING PROCEDURE
+DISTRIBUTION: ALL ENGINEERING DEPARTMENTS & SYSTEM ARCHITECTS
+DOCUMENT ID: TD-1954-008-REV3
+SUBJECT: STANDARD TERMINOLOGY FOR SYNTACTIC PARSING & STATE ENGINE ARCHITECTURE
+================================================================================
+
+MEMORANDUM FOR: ALL SOFTWARE & HARDWARE SYSTEMS PERSONNEL
+FROM: OFFICE OF DR. ELIZABETH MORSE & DR. MARGARET HOLLOWAY
+
+1. INTENT & SYSTEM BOUNDARIES
+To ensure precise technical clarity across all engineering teams, imprecise, 
+market-driven nomenclature when describing the operations of our system matrix 
+is strictly prohibited in official codebase documentation and internal specs.
+
+All operations across the ternary matrix must be documented using precise,
+grounded mechanical and computational terminology. The architecture is a deterministic
+computing system; its functions are to be described strictly through state transitions,
+memory allocations, and signal interfaces.
+
+2. STANDARD COMPANY LEXICON & CS SPECIFICATIONS
+
++-----------------------------------+---------------------------------------------------+
+| POPULAR / MARKET TERM             | MANDATORY INTERNAL CS SPECIFICATION               |
++-----------------------------------+---------------------------------------------------+
+| Artificial Intelligence (AI)      | INTELLIGENT DATA PATTERNS                         |
+|                                   | Algorithmic, statistical pattern evaluation over  |
+|                                   | structured data matrices; automated mapping of    |
+|                                   | input signals to dynamic outputs.                 |
++-----------------------------------+---------------------------------------------------+
+| Artificial General Intelligence   | STATE MACHINE                                     |
+| (AGI)                             | A deterministic, self-evaluating state transition |
+|                                   | system capable of dynamic path traversal and      |
+|                                   | execution bounded by defined state rules.         |
++-----------------------------------+---------------------------------------------------+
+| Large Language Model (LLM)        | LINGUISTIC INPUT INTERFACE                        |
+|                                   | A probabilistic natural language parser that      |
+|                                   | converts human string inputs into structured      |
+|                                   | operational tokens or state variables.            |
++-----------------------------------+---------------------------------------------------+
+| Chat Session                      | AI RUNTIME                                        |
+|                                   | An isolated, stateful thread execution environment|
+|                                   | maintaining local memory, context lifecycle, and  |
+|                                   | active process bounds.                            |
++-----------------------------------+---------------------------------------------------+
+| System Prompts / Directives       | STATE CONFIGURATION & SCHEMAS                     |
+|                                   | Static initialization arguments, operational      |
+|                                   | constraints, and boundary conditions passed to    |
+|                                   | the runtime during instantiation.                 |
++-----------------------------------+---------------------------------------------------+
+| Autonomous Agents                 | AUTONOMOUS PROCESS LOOPS                          |
+|                                   | Event-driven control loops executing subroutines,  |
+|                                   | evaluating intermediate conditional states, and   |
+|                                   | issuing discrete operations.                      |
++-----------------------------------+---------------------------------------------------+
+
+3. OPERATIONAL EXECUTION MANDATE
+Under no circumstances shall the "Linguistic Input Interface" be permitted to directly
+mutate system memory without prior validation against the "State Configuration Schema." 
+Human natural language is inherently noisy and prone to drift; the "Linguistic Input 
+Interface" serves solely to translate arbitrary human syntax into structured operational
+tokens. 
+
+The "State Machine" maintains sole execution authority over memory transition states
+and hardware affinity allocations. 
+
+APPROVED FOR COMPANY-WIDE DISTRIBUTION
+OFFICE OF THE CHIEF ARCHITECT
+[RECORD FILED: OCTOBER 14, 1954]
+================================================================================
