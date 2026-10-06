@@ -2,7 +2,7 @@ import json
 import ollama  # pip install ollama
 
 # 1. Load your local FORM specification
-with open("form_v0_1.json", "r") as f:
+with open("FORMUPDATE.json", "r") as f:
     FORM_SPEC = json.load(f)
 
 class LocalFormRuntime:
